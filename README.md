@@ -8,3 +8,8 @@ Tools used:
 
 QGIS is a free and open-source Geographic Information System (GIS) software designed for creating, editing, storing, analyzing, and visualizing geospatial data. The software supports numerous raster and vector formats, as well as point clouds, and is utilized in urban planning, environmental conservation, and transportation.
 
+### Screenshots
+
+![Screenshot1](1.jpg)
+![Screenshot2](2.jpg)
+![Screenshot3](3.jpg)
