@@ -1,0 +1,44 @@
+The various QWC2 deployment methods are as follows, along with their pros, cons, and when to consider them:
+
+1. Standalone Viewer
+How:
+-Extract pre-built QWC2 files(like the ones obtained through OSGEO4w) to your web server's document root.
+-Minimal configuration (mainly editing config.json).
+Pros:
+-Simplest setup.
+-Good for basic map viewing needs.
+Cons:
+-Lacks advanced features (editing, printing, user management, etc.).
+-Any customization requires directly editing QWC2 source code.
+
+
+2. QWC2 with qwc-services
+How:
+-Leverages additional Python-based services to extend functionality.
+-Can be more manual installation (setting up each service) or streamlined with Docker.
+Pros:
+-Full range of QWC2 features.
+-Highly customizable.
+-Docker simplifies management.
+Cons:
+-More complex setup than standalone.
+-Requires some familiarity with Docker or managing multiple web services.
+
+
+3. Cloud-Hosted Options
+How:
+-Utilize cloud providers that offer pre-configured QWC2 instances or platforms for GIS web applications. (GeoServer)
+Pros:
+-Can be the fastest way to get QWC2 online.
+-Managed infrastructure by the provider.
+Cons:
+-Potentially less control over customization, depending on the type of platforms that provide QWC services.
+-Might incur ongoing costs but some are open source(GeoServer).
+
+
+Choosing the Right Method
+-For Simple map viewing: Standalone is sufficient.
+-Need editing, user management, advanced features: qwc-services is the way to go.
+-Want the easiest deployment with full features: Consider cloud-hosted options if your budget allows.
+-Docker expertise: Makes qwc-services setup much more manageable.
+
