@@ -4,7 +4,7 @@ This is probably the only QWC2 Docker GIT repository you will find on creating a
 This is a responsive website(built with ReactJS and OpenLayers) with QWC2 Docker, with map projects served from QGIS server, and finally deployed on a docker container on a Linux OS on Microsoft Azure instance and secured with Cloudflare DNS.  
 
 
-Tools used:
+Tools used:  
 -AWS EC2 or Azure  
 -Docker  
 -ReactJS  
